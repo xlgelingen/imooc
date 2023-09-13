@@ -1,0 +1,91 @@
+body{
+    /* height: auto; */
+    /* width: 100%; */
+    min-width: 1200px;
+    background-color: #f5f7fa;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "PingFang SC", 微软雅黑, "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+    color: #1c1f21;
+}
+
+.page-header{
+    background: #07111b; /* 检查wrap是否居中 */
+    border-bottom: 1px solid #f3f5f6;
+    z-index: 900;
+}
+.header-container{
+    width: auto;
+    background-color: #fff;
+}
+.page-header .header-wrap{
+    display: flex;
+    align-items: center;
+    width: auto;
+    max-width: 1366px;
+    min-width: 1152px;
+    margin: 0 auto;
+    background-color: #fff 
+}
+.page-header .header-logo{
+    display: block;
+    width: 140px;
+    height: 71px;
+    margin: 0 20px;
+}
+.page-header .header-nav{
+    display: flex;
+}
+.header-nav .header-nav-item{
+    position: relative;
+    display: block;
+    padding: 0 12px;
+    height: 71px;
+    line-height: 71px;
+    font-size: 16px;
+    text-align: center;
+    color: #545c63;
+}
+.header-nav .header-nav-item .nav-item-icon{
+    position: absolute;
+    top: 18px;
+    display: inline-block;
+    width: 14px;
+    height: 10px;
+    background: url(https://static.mukewang.com/static/img/common/new2.png) no-repeat 0 0;
+    background-size: 100%;
+    background-position: center;
+}
+.header-nav .header-nav-item .item-box{
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    margin-left: -48px;
+    display: none;
+    width: 96px;
+    height: 96px;
+    line-height: 1;
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 8px 16px 0 rgba(28,31,33,.2);
+}
+.header-nav .header-nav-item .item-box a{
+    display: block;
+    padding: 12px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #545c63;
+}
+.header-nav .header-nav-item:hover{
+    color: #07111b
+}
+.header-nav .header-nav-item:hover .item-box{
+    display: block;
+}
+.header-nav .header-nav-item .item-box a:hover{
+    color: #07111b;
+    background: rgba(56,61,66,.06);
+}
+
+
+
