@@ -5,62 +5,91 @@
     <meta charset="UTF-8">
     <title>慕课网-程序员的梦工厂</title>
     <link rel="icon" sizes="76x76" href="https://www.imooc.com/static/img/common/touch-icon-ipad.png">
-    <link rel="stylesheet" href="./imooc.css">
-    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./css/imooc.css">
+    <link rel="stylesheet" href="./css/reset.css">
 </head>
     <header class="page-header">
-        <div class="header-container">
             <div class="header-wrap">
-                <a class="header-logo" href="/" target="_self" title="首页">
-                    <img title="慕课网" src="https://www.imooc.com/static/img/index/logo2020.png" style="margin-left: 4px; height: 72px;">
-                </a>
-
-                <div class="header-nav">
-                     <a class="header-nav-item" href="https://www.imooc.com/course/list" target="_self">免费课</a>
-                     <a class="header-nav-item" href="https://coding.imooc.com/" target="_self">实战课</a>
-                     <a class="header-nav-item" href="https://class.imooc.com/" target="_self">
-                        体系课
-                        <i class="nav-item-icon"></i>
+                <div class="header-left">
+                    <a class="header-logo" href="/" target="_self" title="首页">
+                        <img title="慕课网" src="https://www.imooc.com/static/img/index/logo2020.png" style="margin-left: 4px; height: 72px;">
                     </a>
-                     <a class="header-nav-item" href="https://www.imooc.com/wiki" target="_self">教程</a>
-                     <div class="header-nav-item">
-                        发现
-                        <div class="item-box">
-                            <a href="https://www.imooc.com/read" target="_self">专栏</a>
-                            <a href="https://www.imooc.com/article" target="_self">手记</a>
+    
+                    <div class="header-nav">
+                         <a class="header-nav-item" href="https://www.imooc.com/course/list" target="_self">免费课</a>
+                         <a class="header-nav-item" href="https://coding.imooc.com/" target="_self">实战课</a>
+                         <a class="header-nav-item" href="https://class.imooc.com/" target="_self">
+                            体系课
+                            <i class="nav-item-icon"></i>
+                        </a>
+                         <a class="header-nav-item" href="https://www.imooc.com/wiki" target="_self">教程</a>
+                         <div class="header-nav-item">
+                            发现
+                            <div class="item-box">
+                                <a href="https://www.imooc.com/read" target="_self">专栏</a>
+                                <a href="https://www.imooc.com/article" target="_self">手记</a>
+                            </div>
+                         </div>
+                         <div class="header-nav-item">
+                            商业合作
+                            <div class="item-box">
+                                <a href="https://qiye.imooc.com/" target="_blank">企业服务</a>
+                                <a href="https://www.imooc.com/seek/masters" target="_self">讲师入驻</a>
+                            </div>
+                         </div>
+                    </div>
+    
+                    <div class="header-search_box">
+                        <div class="search-area">
+                            <input class="area-input" placeholder="请输入关键字..." type="text">
+                            <div class="area-tags">
+                                <a href="https://www.imooc.com/search/?words=Vue" target="_blank" class="last">
+                                    Vue
+                                </a>
+                                <a href="https://www.imooc.com/search/?words=Python&amp;type=course" target="_blank" class="last">
+                                    Python
+                                </a>
+                            </div>
                         </div>
-                     </div>
-                     <div class="header-nav-item">
-                        商业合作
-                        <div class="item-box">
-                            <a href="https://qiye.imooc.com/" target="_blank">企业服务</a>
-                            <a href="https://www.imooc.com/seek/masters" target="_self">讲师入驻</a>
+                        <div class="search-icon_box">
+                            <i class="search-icon"></i>
                         </div>
-                     </div>
-
-                </div>
-
-                <div class="header-search_box">
-                    <div class="search-area">
-                        <input class="area-input" placeholder="请输入关键字..." type="text" autocomplete="off">
-                        <div class="area-Tags">
-                            <a href="https://www.imooc.com/search/?words=Vue" target="_blank" class="last">
-                                Vue
-                            </a>
-                            <a href="https://www.imooc.com/search/?words=Python&amp;type=course" target="_blank" class="last">
-                                Python
-                            </a>
-                    </div>
-                    </div>
-                    <div class="search-icon">
-
                     </div>
                 </div>
+               
                 <div class="header-info">
+                    <div class="info-icon_wrap" style="position: relative; height: 36px;">
+                        <a href="//order.imooc.com/pay/cart" class="info-icon_box" target="_blank">
+                            <i class="info-icon"></i>    
+                        </a>
+                        <div class="info-chart">
+                            <div class="chart-title">                            
+                                <h2 class="l">我的购物车</h2>                            
+                                <h5 class="r">已加入0门课程</h5>                       
+                            </div>
+                            <div class="chart-clear">                                
+                                <i class="chart-icon"></i>    
+                                <h3>购物车里空空如也</h3>                                
+                                <h5 class="b">快去这里选购你中意的课程<h5>                                
+                                <a class="go-link" href="//coding.imooc.com" target="_blank">实战课</a>                                
+                                <a class="go-link" href="//class.imooc.com/" target="_blank">体系课</a>                           
+                            </div>
 
+                            <div class="chart-more">
+                                <h5 class="f">我的订单中心<h5>  
+
+                                <a href="//order.imooc.com/pay/cart" target="_blank" class="go-chart">去购物车</a>                             
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-sign">
+                        <a href="//www.imooc.com/user/newlogin" class="sign-btn">登录</a>
+                        /
+                        <a href="//www.imooc.com/user/newsignup" class="sign-btn">注册</a>
+                    </div>
                 </div>
             </div>
-        </div>
     </header>
 
     <div class="page-body"></div>
